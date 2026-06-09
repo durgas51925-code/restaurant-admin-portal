@@ -129,23 +129,26 @@ MySQL is used as the primary database.
 Example configuration:
 
 properties->
--spring.datasource.url=jdbc:mysql://localhost:3306/restaurant_db
+-spring.datasource.url=jdbc:mysql://localhost:3306/restaurant_db   
+
 -spring.datasource.username=root
+
 -spring.datasource.password=your_password
+
 -spring.jpa.hibernate.ddl-auto=update
 
 
 ## 📁 Project Structure
 
 
-controller
-service
-repository
-entity
-dto
-exception
-jwt
-config
+-controller
+-service
+-repository
+-entity
+-dto
+-exception
+-jwt
+-config
 
 
 ## 🚀 How To Run
